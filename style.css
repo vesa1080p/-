@@ -1,0 +1,85 @@
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: monospace;
+    text-align: center;
+    padding: 20px;
+}
+
+#banner {
+    font-size: 14px;
+}
+
+#game {
+    padding: 20px;
+    font-size: 24px;
+    color: #ccc;
+}
+
+button {
+    background-color: black;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    font-family: monospace;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.tile {
+    font-weight: bold;
+}
+.tile-2 {
+    color: #fafafa;
+}
+.tile-4 {
+    color: #f5baba;
+}
+.tile-8 {
+    color: #f9c74f;
+}
+.tile-16 {
+    color: #90be6d;
+}
+.tile-32 {
+    color: #43aa8b;
+}
+.tile-64 {
+    color: #577590;
+}
+.tile-128 {
+    color: #277da1;
+}
+.tile-256 {
+    color: #9d4edd;
+}
+.tile-512 {
+    color: #f15bb5;
+}
+@keyframes rainbow {
+    0% {
+        color: red;
+    }
+    16% {
+        color: orange;
+    }
+    33% {
+        color: yellow;
+    }
+    50% {
+        color: lime;
+    }
+    66% {
+        color: cyan;
+    }
+    83% {
+        color: violet;
+    }
+    100% {
+        color: red;
+    }
+}
+.rainbow-text {
+    animation: rainbow 2s linear infinite;
+    font-weight: bold;
+}
